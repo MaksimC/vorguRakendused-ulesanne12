@@ -32,3 +32,6 @@ INSERT INTO `loomaaed_mtseljab`(`id`, `nimi`, `puur`, `liik`) VALUES
 (9, 'Maali', 7, 'cow'),
 (10, 'Kasper', 7, 'cow'),
 (11, 'Mingi', 7, 'cow');
+
+
+Puurid = [2->[0->[id->1;nimi->Kassper;puur->2;liik->pildid.cat.png]; 1->[id->3; nimi-> Kassper; puur->2; liik pildid.cat.jpg] etc  ]

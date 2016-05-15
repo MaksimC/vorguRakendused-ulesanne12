@@ -1,3 +1,9 @@
+<?php
+		var_dump($puurid);
+	?>
+
+<!--Puurid = [2->[0->[id->1;nimi->Kassper;puur->2;liik->pildid.cat.png]; 1->[id->3; nimi-> Kassper; puur->2; liik pildid.cat.jpg] etc  ]-->
+
 <?php foreach($puurid as $puuriNr=>$puur): ?>
 <div class="puur">
     <h3>Puur nr <?php echo $puuriNr; ?></h3>
@@ -6,3 +12,5 @@
     <?php endforeach; ?>
 </div>
 <?php endforeach; ?>
+
+
