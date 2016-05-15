@@ -41,6 +41,7 @@ function kuva_puurid(){
     }
 
     mysqli_close($connection);
+    mysqli_free_result($result);
     include_once('views/puurid.html');
 
 
