@@ -1,13 +1,8 @@
-<pre>
-	<?php
-		//print_r($puurid);
-	?>
-</pre>
 <?php if (!empty($puurid)):?>
-<?php foreach($puurid as $puuri_id=>$puur): ?>
+<?php foreach($puurid as $puuriNr=>$puur): ?>
 <div class="puur">
-    <h3>Puur nr <?php echo $puuri_id; ?></h3>
-    <?php foreach($puur as $looma_id=>$loom): ?>
+    <h3>Puur nr <?php echo $puuriNr; ?></h3>
+    <?php foreach($puur as $loomaNr=>$loom): ?>
     <img src="<?php echo $loom['liik']; ?>" alt="<?php echo $loom['nimi']; ?>" title="<?php echo $loom['nimi']; ?>">
     <?php endforeach; ?>
 </div>
